@@ -1,4 +1,4 @@
-Домашняя работа по курсу "Разработчик Java" в Otus.ru (https://otus.ru/lessons/JEE/)
+Домашняя работа по курсу "Разработчик JavaEE" в Otus.ru (https://otus.ru/lessons/JEE/)
 
 Группа 2017-12
 
