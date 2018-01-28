@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>HW04</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script  src="js/script.js"></script>
+</head>
+<body>
+<header>
+    <img src="imgs/mklogo.png" id="logo">
+    <form action="https://www.google.ru/search" method="get" target="_blank">
+        <input  name="q" placeholder="Искать здесь..." type="search">
+        <button type="submit">Поиск</button>
+    </form>
+    <div id="about">Мы хорошая компания!<br>t: +7999999999</div>
+</header>
+<nav>
+    <ul>
+        <li><a href="/">Главная</a></li>
+        <li><a href="/signup.html">Вход в систему</a></li>
+        <li><a href="/page1.html">Меню 1</a></li>
+        <li><a href="/admin.html">Админка</a></li>
+        <li><a href="/about.html">О нас</a></li>
+    </ul>
+</nav>
+<div id="main">
+    <section>
+        <article>
+            <header>
+                <h2>Регистрация</h2>
+            </header>
+            <form id="signupform" action="#" method="get">
+                    <input type="text" name="name" placeholder="Имя" required />
+                    <input type="email" name="email" placeholder="E-Mail" />
+                    <input type="tel" name="phone" placeholder="Телефон" />
+                    <input type="url" name="url" placeholder="Ваш сайт" />
+                    <button type="submit">Отправить</button>
+            </form>
+        </article>
+    </section>
+    <aside>
+        <article>
+            <header>
+                <h4>курсы валют</h4>
+            </header>
+            <div id="currencies"/>
+        </article>
+        <article>
+            <header>
+                <h4>Новости</h4>
+            </header>
+            <div id="news"/>
+        </article>
+    </aside>
+</div>
+
+<footer>
+    футер
+</footer>
+</body>
+</html>
