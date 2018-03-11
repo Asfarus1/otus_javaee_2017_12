@@ -2,14 +2,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.otus_jee_matveev_anton</groupId>
-    <artifactId>hw02</artifactId>
+    <artifactId>hw03</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>hw02 Maven Webapp</name>
+    <name>hw03 Maven Webapp</name>
 
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
+        <!--<servlet.version>3.1.0</servlet.version>-->
         <servlet.version>4.0.0</servlet.version>
         <jsp.version>2.3.1</jsp.version>
         <hibernate.version>5.2.2.Final</hibernate.version>
@@ -57,8 +58,32 @@
             <version>1.7.25</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20180130</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.json.bind</groupId>
+            <artifactId>javax.json.bind-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse</groupId>
+            <artifactId>yasson</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.json</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+
     </dependencies>
     <build>
-        <finalName>hw02</finalName>
+        <finalName>hw03</finalName>
     </build>
 </project>
